@@ -8,12 +8,14 @@ gunicorn = "==19.7.1"
 flask-restplus = "*"
 python-dotenv = "*"
 flask = "*"
+Jinja2 = ">=2.10.1"
 
 [dev-packages]
 pytest = "*"
 bumpversion = "*"
 pytest-sugar = "*"
 pytest-cov = "*"
+Jinja2 = ">=2.10.1"
 
 [requires]
 python_version = "3.6"
